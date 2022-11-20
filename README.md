@@ -33,7 +33,10 @@ Congrats, you did it!
 ### Step 1: Download it and edit it.
 
 Here's a video:
+
 https://user-images.githubusercontent.com/66965250/202909741-7932cbdf-4798-48c2-88d7-248cd74c3858.mp4
+
+Also I forgot to mention in the short video that in the URL you need to add `/upload`, so it's `https://yourdomain.tld/upload`
 
 ### Step 2: Double click it.
 
