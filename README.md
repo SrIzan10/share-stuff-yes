@@ -16,7 +16,7 @@ You shouldn't have all your images in a container, because if there was some bug
 The `--name` can be changed to your liking.
 
 On the volume part, change the `/host/path/to/have/your/files` to where you want to have the files hosted.
-The `AUTHTOKEN` env variable should be a real long random string with special characters, numbers, letters... I mean, go crazy! Whoever has that token can upload ANYTHING to the server. [This is a solid generator](https://delinea.com/resources/password-generator-it-tool).
+The `AUTHTOKEN` env variable should be a really long random string with special characters, numbers, letters... I mean, go crazy! Whoever has that token can upload ANYTHING to the server. [This is a solid generator](https://delinea.com/resources/password-generator-it-tool).
 
 For the INSTANCEURL variable, you need to set the main URL the server without the slash at the end. For example: `https://thissubdomainisanexample.srizan.ml` and NOT `https://thissubdomainisanexample.srizan.ml/`.
 In `-p` you can edit the first part, aka the port.
