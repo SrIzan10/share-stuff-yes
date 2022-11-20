@@ -24,3 +24,18 @@ In `-p` you can edit the first part, aka the port.
 ### Step 3: Enjoy!
 
 Congrats, you did it!
+
+# Add the sxcu file to your ShareX
+
+### Step 1: Download it and edit it.
+
+Here's a video:
+https://user-images.githubusercontent.com/66965250/202909741-7932cbdf-4798-48c2-88d7-248cd74c3858.mp4
+
+### Step 2: Double click it.
+
+Simple and straight forward. It'll import automagically to ShareX
+
+### Step 3: Finally, now you can upload your stuff
+
+😎
