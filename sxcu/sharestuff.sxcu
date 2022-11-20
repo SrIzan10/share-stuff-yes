@@ -7,7 +7,7 @@
     "Headers": {
         "Authentication": "YOURKEY"
     },
-    "Body": "FormURLEncoded",
+    "Body": "MultipartFormData",
     "FileFormName": "file",
     "URL": "{json:url}",
     "ErrorMessage": "{json:error}"
