@@ -1,0 +1,14 @@
+{
+    "Version": "14.0.0",
+    "Name": "Share Stuff",
+    "DestinationType": "ImageUploader, TextUploader, FileUploader",
+    "RequestMethod": "POST",
+    "RequestURL": "http://sharestuffserver.tld/upload",
+    "Headers": {
+        "Authentication": "YOURKEY"
+    },
+    "Body": "FormURLEncoded",
+    "FileFormName": "file",
+    "URL": "{json:url}",
+    "ErrorMessage": "{json:error}"
+}
