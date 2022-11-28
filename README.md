@@ -6,7 +6,7 @@ Sr Izan's ShareX custom uploader thing (gimme a name please)
 We're going to be using Docker here.
 
 ### Step 1: Download the image
-`docker pull srizan10/share-stuff` < Yeah, that's pretty straight forward, just download a simple Docker image.
+`docker pull srizan10/share-stuff`
 
 ### Step 2: Run the container (and mount the images as a volume)
 You shouldn't have all your images in a container, because if there was some bug or data loss to the point where you can't backup the files, you're screwed.

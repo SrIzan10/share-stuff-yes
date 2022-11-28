@@ -33,7 +33,7 @@ app.post('/upload', multer().single('file'), async (req, res) => {
         const [anotherpart, extension] = req.file!.mimetype.split("/");
         filename = `${makeid(5)}.${extension}`
     }
-    const generatedurl =  process.env.INSTANCEURL + "/" + filename
+    const generatedurl = process.env.INSTANCEURL + "/" + (filename.replaceAll(' ', '%20'))
     writeFile(`./i/${filename}`, req.file!.buffer, (err) => {
         if (err) throw err
         res.json({"url": generatedurl})
